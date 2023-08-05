@@ -1,0 +1,7 @@
+{{- $align := "" -}}
+<!--  -->
+{{- $align = .Get 0 -}}
+
+<div style="text-align: {{ with $align }} {{ . }} {{ end }}">
+  {{ .Inner | markdownify }}
+</div>
