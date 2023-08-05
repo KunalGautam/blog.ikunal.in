@@ -1,7 +1,7 @@
 baseURL: "http://example.org/"
 languageCode: en-us
 title: K for Kunal | My Pen My Voice
-theme: PaperMod
+theme: hugo-PaperMod
 menu:
   main:
     # - identifier: categories
