@@ -12,6 +12,4 @@ categories:
 format: audio
 ---
 
-[MP3](/post/88/airtel.mp3)
-
-So sucktel rejected my MNP Req on Contractual obligation LOL
+{{<audio "/post/88/airtel.mp3" "So sucktel rejected my MNP Req on Contractual obligation LOL">}}

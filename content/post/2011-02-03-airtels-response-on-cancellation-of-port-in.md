@@ -12,6 +12,4 @@ categories:
 format: audio
 ---
 
-[MP3](/post/87/airtel.mp3)
-
-Airtel’s response on cancellation of Port In request to Uninor.
+{{<audio "/post/87/airtel.mp3" "Airtel’s response on cancellation of Port In request to Uninor.">}}

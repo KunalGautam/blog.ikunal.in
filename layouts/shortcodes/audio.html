@@ -1,0 +1,18 @@
+{{- $fileSrc := "" -}}
+{{- $caption := "" -}}
+
+{{- $fileSrc = .Get 0 -}}
+{{- $caption = .Get 1 -}}
+
+<style>
+    audio.audioPlayer {
+        width: 100%;
+    }
+</style>
+<figure>
+  <audio controls class="audioPlayer" preload="none">
+    {{ with $fileSrc }}<source src="{{ . | relURL }}" type="audio/mpeg">{{ end }}
+  </audio>
+  {{/*  <a href="{{ .Get "fileSrc"  }}" class="button small" download><i class="icon fas fa-download"></i></a>  */}}
+  {{ with $caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

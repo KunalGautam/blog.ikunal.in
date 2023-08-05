@@ -12,4 +12,4 @@ categories:
 format: audio
 ---
 
-<audio controls="controls" preload="none" style="width: 100%;"><source src="/post/43/win.mp3" type="audio/mpeg"></source></post/43/win.mp3></audio>Windows Music 😃
+{{<audio "/post/43/win.mp3" "Windows Music 😃">}}

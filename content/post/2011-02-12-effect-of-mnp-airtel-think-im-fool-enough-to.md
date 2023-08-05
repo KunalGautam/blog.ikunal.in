@@ -12,6 +12,4 @@ categories:
 format: audio
 ---
 
-[MP3](/post/89/mnp.mp3)
-
-Effect of MNP, Airtel think I’m fool enough to switch again to their network
+{{<audio "/post/89/mnp.mp3" "Effect of MNP, Airtel think I’m fool enough to switch again to their network">}}

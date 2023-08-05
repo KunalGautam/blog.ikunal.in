@@ -11,4 +11,4 @@ categories:
   - Editorial
 ---
 
-<audio controls="controls" id="audio-558-1" preload="none" style="width: 100%;"><source src="/post/9/ringtone.mp3" type="audio/mpeg"></source></post/9/ringtone.mp3></audio>This Is my RingTone/SingTone . I love it tooo much 😃
+{{<audio "/post/9/ringtone.mp3" "This Is my RingTone/SingTone . I love it tooo much 😃">}}
