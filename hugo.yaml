@@ -1,0 +1,37 @@
+baseURL: "http://example.org/"
+languageCode: en-us
+title: K for Kunal | My Pen My Voice
+theme: PaperMod
+menu:
+  main:
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 10
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 20
+    # - identifier: post
+    #   name: Blog Posts
+    #   url: /post/
+    #   weight: 30
+    - identifier: about
+      name: About Me
+      url: https://ikunal.in
+      weight: 20
+    - identifier: wishlist
+      name: Wish List
+      url: /page/wishlist/
+      weight: 40
+    - identifier: publicKey
+      name: Public Key
+      url: /public-key.asc
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xhtml: true
