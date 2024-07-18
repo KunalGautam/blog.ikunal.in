@@ -6,7 +6,7 @@ date: 2023-08-05T15:51:14+05:30
 draft: false
 type: post
 categories:
-  - MongoDB Learning
+  - Updates
 ---
 
 Finally I've decided to leave the WordPress platform and move to static website generator. For this purpose I'm using Hugo platform, which is really great.
