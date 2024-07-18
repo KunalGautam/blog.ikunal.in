@@ -1,7 +1,7 @@
 baseURL: "https://blog.ikunal.in"
 languageCode: en-us
 title: K for Kunal | My Pen My Voice
-theme: PaperMod
+theme: ThemeStack
 menu:
   main:
     - identifier: categories
