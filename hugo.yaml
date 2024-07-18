@@ -4,14 +4,14 @@ title: K for Kunal | My Pen My Voice
 theme: PaperMod
 menu:
   main:
-    # - identifier: categories
-    #   name: Categories
-    #   url: /categories/
-    #   weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
     # - identifier: tags
     #   name: Tags
     #   url: /tags/
-    #   weight: 20
+    #   weight: 30
     # - identifier: post
     #   name: Blog Posts
     #   url: /post/
@@ -19,7 +19,7 @@ menu:
     - identifier: about
       name: About Me
       url: https://ikunal.in
-      weight: 20
+      weight: 10
     - identifier: wishlist
       name: Wish List
       url: /page/wishlist/
