@@ -17,10 +17,10 @@ categories:
 or
 
     db.createUser({
-            user:&#039;adminUser&#039;,
-            pwd:&#039;adminPassword&#039;,
-            passwordDigestor:&#039;server&#039;,
-            roles:[&#039;dbOwner&#039;]
+            user:"adminUser",
+            pwd:"adminPassword",
+            passwordDigestor:"server",
+            roles:["dbOwner"]
         })
 
 Add the following to `/etc/mongod.conf` or `/usr/local/etc/mongod.conf`
