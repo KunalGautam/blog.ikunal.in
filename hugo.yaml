@@ -4,10 +4,7 @@ title: K for Kunal | My Pen My Voice
 theme: ThemeStack
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 20
+    
     # - identifier: tags
     #   name: Tags
     #   url: /tags/
@@ -16,18 +13,63 @@ menu:
     #   name: Blog Posts
     #   url: /post/
     #   weight: 30
+    
+    
+    
+menu:
+    main: 
     - identifier: about
       name: About Me
       url: https://ikunal.in
       weight: 10
+      params:
+              icon: user
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+      params:
+              icon: categories
     - identifier: wishlist
       name: Wish List
       url: /page/wishlist/
       weight: 40
+      params:
+              icon: wishlist
     - identifier: publicKey
       name: Public Key
       url: /public-key.asc
       weight: 50
+      params:
+              icon: pub-key
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/KunalGautam
+          params:
+              icon: github
+
+        - identifier: twitter
+          name: Twitter
+          url: https://x.com/KunalGautam
+          params:
+              icon: x-twitter
+
+        - identifier: instagram
+          name: Instagram
+          url: https://www.instagram.com/KunalGautam/
+          params:
+              icon: instagram
+
+        - identifier: facebook
+          name: Twitter
+          url: https://www.facebook.com/profile.php?id=100086410936332
+          params:
+              icon: facebook-f
+
+
+          
 
 markup:
   goldmark:
