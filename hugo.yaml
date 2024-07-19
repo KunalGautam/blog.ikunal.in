@@ -13,6 +13,16 @@ params:
             local: true
             src: img/logo.png
     
+    widgets:
+        homepage: 
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: tag-cloud
+              params:
+                  limit: 50
+        page: []             
     
 menu:
     main: 
@@ -40,6 +50,7 @@ menu:
       weight: 50
       params:
               icon: pub-key
+    
 
     social:
         - identifier: github
@@ -65,6 +76,14 @@ menu:
           url: https://www.facebook.com/profile.php?id=100086410936332
           params:
               icon: brand-facebook
+
+        - identifier: rss
+          name: RSS
+          url: /index.xml
+          params:
+              icon: rss
+
+
 
 
           
