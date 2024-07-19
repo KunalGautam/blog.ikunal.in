@@ -46,25 +46,25 @@ menu:
           name: GitHub
           url: https://github.com/KunalGautam
           params:
-              icon: github
+              icon: brand-github
 
         - identifier: twitter
           name: Twitter
           url: https://x.com/KunalGautam
           params:
-              icon: x-twitter
+              icon: brand-x
 
         - identifier: instagram
           name: Instagram
           url: https://www.instagram.com/KunalGautam/
           params:
-              icon: instagram
+              icon: brand-instagram
 
         - identifier: facebook
           name: Twitter
           url: https://www.facebook.com/profile.php?id=100086410936332
           params:
-              icon: facebook-f
+              icon: brand-facebook
 
 
           
