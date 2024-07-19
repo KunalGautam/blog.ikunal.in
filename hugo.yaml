@@ -6,7 +6,7 @@ theme: ThemeStack
 params:
     sidebar:
         compact: false
-        emoji:
+        emoji: ✍️
         subtitle:
         avatar:
             enabled: true
