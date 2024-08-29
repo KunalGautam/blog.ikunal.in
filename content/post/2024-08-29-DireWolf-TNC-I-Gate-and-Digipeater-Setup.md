@@ -17,7 +17,7 @@ tags:
 
 ---
 
-Last few days, with help of my Friend Prateek(Callsign VU3YEK), I was quite busy in testing APRS for communication over the radio. We setup APRS I-Gate at our home and extensively tested it over a period of time. Now that everything is in proper place, I had a thought to share my APRS I-Gate and Digipeater setup with everyone(and to show some activity on my almost dormant blog). I'm using a Raspberry Pi 3 along with USB sound card and PTT interface with Baofeng 888s radio. Before moving forward to installation of DireWolf TNC lets see overview of APRS and DireWolf TNC. 
+Last few days, with the help of my Friend Prateek (Callsign VU3YEK), I was quite busy testing  the APRS for communication over the radio. We setup APRS I-Gate at our home and extensively tested it over a period of time. Now that everything is in proper place, I had a thought to share my APRS I-Gate and Digipeater setup with everyone(and to show some activity on my almost dormant blog). I'm using a Raspberry Pi 3 along with USB sound card and PTT interface with Baofeng 888s radio. Before moving forward to installation of DireWolf TNC lets see overview of APRS and DireWolf TNC. 
 
 ##### Note: This post assumes, you have knowledge about proper wiring the connection and running linux.
 
@@ -237,5 +237,5 @@ This service will run under tmux, and you can always access it using tmux comman
 
 ---
 
-##### Final Note: Although this process may seems to be exaggerated for few people, but final result is a solid and reliable IG adn Digipeater solution. After setting up, one can also use it to track your APRS movement and share your track via different means (Like Telegram/WhatsApp/Email/SMS) to your friends and relatives, possiblities are endless!!
+##### Final Note: Although this process may seems to be exaggerated for few people, but final result is a solid and reliable IG & Digipeater solution. After setting up, one can also use it to track your APRS movement and share your track via different means (Like Telegram/WhatsApp/Email/SMS) to your friends and relatives, possiblities are endless!!
 
