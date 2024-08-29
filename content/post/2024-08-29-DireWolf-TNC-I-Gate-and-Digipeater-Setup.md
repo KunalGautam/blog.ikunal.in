@@ -203,6 +203,9 @@ So in above configuration:
 - `IGFILTER` & `FILTER` filter the type of data to be retreived by APRS Internet Gateway
 - `IGTXVIA` Relay Internet Gateway message via RF (0 in the above configuration specify the CHANNEL)
 
+##### Note: SPEECH and CBEACON can be omitted, but I've added them as it was required for me for identification over RF.
+
+
 #### Run DireWolf as service
 
 Create `/etc/systemd/system/direwolf.service` file with following content
@@ -232,7 +235,7 @@ Enable and run the direwolf service by running following command
 This service will run under tmux, and you can always access it using tmux command. Refer to tmux manual to know how to use it.
 
 
-#### Note: SPEECH and CBEACON can be omitted, but I've added them as it was required for me for identification over RF.
 ---
 
-Although this process may seems to be exaggerated for few people, but final result is a solid and reliable IG adn Digipeater solution. After setting up, one can also use it to track your APRS movement and share your track via different means (Like Telegram/WhatsApp/Email/SMS) to your friends and relatives, possiblities are endless!!
+##### Final Note: Although this process may seems to be exaggerated for few people, but final result is a solid and reliable IG adn Digipeater solution. After setting up, one can also use it to track your APRS movement and share your track via different means (Like Telegram/WhatsApp/Email/SMS) to your friends and relatives, possiblities are endless!!
+
