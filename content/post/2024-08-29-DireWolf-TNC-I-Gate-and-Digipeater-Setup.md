@@ -203,6 +203,34 @@ So in above configuration:
 - `IGFILTER` & `FILTER` filter the type of data to be retreived by APRS Internet Gateway
 - `IGTXVIA` Relay Internet Gateway message via RF (0 in the above configuration specify the CHANNEL)
 
+#### Run DireWolf as service
+
+Create `/etc/systemd/system/direwolf.service` file with following content
+
+```
+[Unit]
+Description=Direwolf
+After=network.target
+
+[Service]
+Type=forking
+#Modify the end of the line below to fit your own needs i.e path to your configuration file
+ExecStart=/usr/bin/tmux new-session -d -s direwolf ‘/usr/local/bin/direwolf -c /root/direwolf.conf’
+Restart=always
+
+[Install]
+WantedBy=default.target
+```
+In above file, replace direwolf.conf location mentioned in ExecStart with your user (Example /home/pi/direwolf.conf)
+
+After saving, reload the systemctl daemon by running following command
+`systemctl daemon-reload`
+
+Enable and run the direwolf service by running following command
+`systemctl enable direwolf.service && systemctl start direwolf.service`
+
+This service will run under tmux, and you can always access it using tmux command. Refer to tmux manual to know how to use it.
+
 
 #### Note: SPEECH and CBEACON can be omitted, but I've added them as it was required for me for identification over RF.
 ---
