@@ -18,7 +18,7 @@ tags:
   - travel
 ---
 
-It's going to be long time that I've written nothing on my blog. Recently my friend [Anurag Upadhaya](http://eanurag.com) had his first flight experience. Hence I thought I should also share my first flight experience.
+It's going to be long time that I've written nothing on my blog. Recently my friend [Anurag Upadhaya](http://anurag.foo) had his first flight experience. Hence I thought I should also share my first flight experience.
 
 In India, it is very hard to get a confirmed ticket on train towards Bihar/U.P. route during summer vacation. Recently I had to attend marriage ceremony of my Brother-in-law from Samastipur, Bihar. Since I was unable to get confirmed ticket, I booked flight ticket from Pune to Patna (via Delhi).
 
