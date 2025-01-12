@@ -32,7 +32,7 @@ To summarize all I can say is what you paid is what you get.
 
 **Credits :**
 
-**[Anurag Upadhyay](http://eanurag.com)** : For all the encouragement and suggesting title for the post 😃
+**[Anurag Upadhyay](http://anurag.foo)** : For all the encouragement and suggesting title for the post 😃
 
 **[Priyam Malhotra](http://priyammalhotra.com/)** : For FB Status update
 
